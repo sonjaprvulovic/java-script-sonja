@@ -1,0 +1,32 @@
+title{color:maroon;}
+h3{color:red;}
+p{color:purple;}
+img{size:400px x 300px;}
+a{color:orange;}
+body{background-color:sandyBrown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:20px;        
+}
+.nova_klasa{
+    text-align:center;
+}
+.druga_klasa{
+    text-align:right;
+            font-size: 24px;
+        }
+img{
+    border:red 10px dotted;
+    }
+#treci{text-align:center ;
+        color:green;
+        font-family:'Courier New', Courier, monospace ;
+}
+a:visited{
+    color:green;
+}
+a:hover{
+    color:yellow;
+}
+a:active{
+    color:green;
+}

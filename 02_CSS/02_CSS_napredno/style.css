@@ -1,0 +1,35 @@
+.crveni_paragraf{
+    color:red
+}
+.desno_poravnanje{
+    text-align: right;
+}
+h3,h6{
+    color:orange
+}
+.drugi,#treci{background-color: yellow}
+li{
+    color:green;
+}
+.kurs{color:blue;}
+#js{color:red;}
+/*selekotoavti sve paragrafe unutar div elementa*/
+div p{
+    text-decoration:underline ;
+}
+div .podparagraf{
+    font-weight:bold ;
+}
+/*pomocu selektora > samo prvo koleno, samo deca */
+#divizija>p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+/*odd svi parni even svi neparni i ima razmak izmedju ol i li
+npr tako selektujemo sve parne ili npr svaki treci list item*/
+
+ol li:nth-child(odd){
+    background-color:yellowgreen ;
+}
+
+

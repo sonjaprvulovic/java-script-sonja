@@ -1,0 +1,56 @@
+body{
+    background-color: lightgray;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:80px;
+}
+
+
+header{
+    text-align: center;
+}
+
+.drugaciji{
+    
+    background-color: rgb(173, 186, 189);
+}
+#treba_centrirano{
+    text-align: center;
+}
+
+#novi_id
+{
+    background-color:rgb(173, 186, 189);
+}
+
+#novi_id p:nth-child(odd){
+    color:rgb(28, 28, 65);
+    font-weight: bold;
+}
+a:link{
+    color:rgb(18, 18, 48);
+}
+a:visited{
+    color:rgb(61, 24, 61);
+}
+a:hover{
+    color:maroon;
+}
+a:active{
+    color:yellowgreen;
+}
+/*a #zoran:link{
+    color:crimson;
+}
+a #zoran:link{
+    color:darkolivegreen;
+}*/
+img{ 
+    border-radius:5mm;
+}
+table{
+    border:rgba(128, 84, 128, 0.83)10px solid;
+}
+h1{
+    color:rgb(61, 24, 61)
+}
+

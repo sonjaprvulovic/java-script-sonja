@@ -1,0 +1,20 @@
+h3{
+    color:green;
+    text-decoration:line-through;
+}
+p{
+    color:rgb(211, 211, 44);
+
+}
+#prvi{
+    text-align: right;
+    background-color: orange;
+}
+.zuta_pozadina{
+    background-color: yellow;
+    font-weight:bold;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   /* margin: 50px;*/   
+}
