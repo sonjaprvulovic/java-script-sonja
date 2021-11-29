@@ -1,0 +1,71 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+}
+
+header{
+    position:relative;
+    height:600px;
+    background-image: url("slicicacveta.jpg");
+    /* text-align: center; */
+    /*line-height:600px;*/
+}
+
+div{
+    /* position:absolute; */
+    /* right:0px; */
+    /* bottom:0px; */
+    /*width:100%;
+    height:300px;*/
+
+    /* background-color: rgba(255, 0, 255, 0.522); */
+}
+
+h2{
+    position:absolute;
+    width:100%;
+    bottom:0px;
+    left:0px;
+}
+.topright{
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+
+.topleft{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+.bottomright{
+    position: absolute;
+    bottom:0px;
+    right:0px;
+}
+    
+.bottomleft{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+}
+
+.sredina{
+    position: relative;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+
+}
+
+.zuti{
+    background-color: chartreuse;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    position:fixed;
+    top: 100px;
+  
+}
+

@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.row{
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+[class*="col-"]{
+    float: left;
+    border: none;
+}
+
+@media only screen and (min-width:601px){
+    .col-1{
+        width: 8.33%;
+    }
+    .col-2{
+        width: 16.66%;
+    }
+    .col-3{
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;}
+    }
+
+    @media only screen and (max-width:600px){
+        [class*="col-"]{
+            width: 100%;
+        }
+    }
+
+    nav ul{
+     background-color: cadetblue;
+     height:150px;
+    
+    }
+
+    nav ul li a{
+        display: block;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    nav ul li{
+        height:50px;
+        padding:3px;
+        border:3px solid rgb(219, 224, 233);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px; 
+    }
+
+    nav ul li:hover{
+        background-color: rgb(83, 88, 51);      
+    }
+
+    nav ul li a:hover{
+        color: white;
+    }
+
+    .submenu{
+        display: none;
+    }
+
+    .dropdown:hover .submenu{
+        display: block;
+    }
+
+    aside{
+        padding:0px 20px;
+    }
+
+    header{
+        background-image:url("suncokret.jpg");
+        text-align: center;
+        padding: 50px;
+    }
+
+    h1{     
+        background-color: floralwhite;
+    }
+
+    .kontejnerslike{
+        padding: 20px;
+    }
+
+    img{
+        width:70%;
+        height: 200px;
+    }
+
+    .linkovi{
+        text-align: center;
+       
+     }
+
+     .linkovi a{
+         text-decoration: none;
+         width: 30%;
+         padding: 20px;
+         margin: 0px 10px;
+        
+     }
+
+     .linkovi a:hover{
+         background-color: yellow;
+
+     }
+
+     .kursevi{
+         background-color: rgb(221, 207, 126);
+         padding: 50px;
+         text-align: center;
+         font-size: 25px;
+         color: rgb(63, 60, 20);
+     }
+
+    .centrirano{
+        text-align: center;
+        }
+
